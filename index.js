@@ -25,3 +25,9 @@ const fi = (function() {
 })()
 
 fi.libraryMethod()
+fi.each(collection, callback)
+fi.map(collection, callback)
+fi.reduce(collection, callback, acc)
+fi.find(collection, predicate)
+fi.filter(collection, predicate)
+fi.size(collection)
